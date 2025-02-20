@@ -10,10 +10,10 @@ This repository contains a collection of MERN (MongoDB, Express, React, Node.js)
 - **notifications**: Components for notifications, alerts, and messaging.
 - **file-upload**: Components to handle file uploads and integrations with cloud storage.
 - **forms**: Reusable form components with validations and error handling.
-- **charts**: Various chart components such as bar, line, and pie charts.
+- **media-players**: Audio and video player components with playback controls and responsive design.
 - **tables**: Components for displaying data in tables with sorting and filtering functionalities.
-- **maps**: Components for integrating maps and geolocation features.
-- **misc**: Miscellaneous components that don't fit into the other categories.
+- **search-filters**: Efficient search bars, filtering UIs, and autocomplete components.
+- **database**: MongoDB models and components for efficient database operations.
 
 ## Getting Started
 
@@ -41,3 +41,4 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ---
 
 Happy coding!
+
