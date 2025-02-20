@@ -1,15 +1,9 @@
-import React from 'react';
-
-/**
- * OverviewCard Component
- * Description: Displays an overview with key metrics.
- */
-
-const OverviewCard = () => (
-  <div className="bg-white rounded-2xl shadow p-6">
-    <h3 className="text-lg font-semibold text-gray-700 mb-4">Overview Card</h3>
-    <p className="text-gray-600">This is the OverviewCard component.</p>
-  </div>
+export const OverviewCard = ({ title, value, icon: Icon }) => (
+    <div className="bg-white rounded-2xl shadow p-4 flex items-center justify-between">
+        <div>
+            <h3 className="text-lg font-semibold text-gray-700">{title}</h3>
+            <p className="text-2xl font-bold text-gray-900">{value}</p>
+        </div>
+        {Icon && <Icon className="w-10 h-10 text-blue-500" />}
+    </div>
 );
-
-export default OverviewCard;
