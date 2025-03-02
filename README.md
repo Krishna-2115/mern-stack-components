@@ -1,19 +1,23 @@
 # MERN Stack Components Repository
 
-This repository contains a collection of MERN (MongoDB, Express, React, Node.js) stack components categorized into 10 sub-folders. Each sub-folder represents a feature area with 25 individual components that can be used as building blocks for your full-stack application.
+This repository contains a collection of MERN (MongoDB, Express, React, Node.js,Redux-toolkit) stack components categorized into 10 sub-folders. Each sub-folder represents a feature area with 25 individual components that can be used as building blocks for your full-stack application.
 
 ## Folder Structure
 
-- **user-auth**: Components for user authentication, including JWT middleware, login forms, and registration flows.
+- **api-middleware**: Express middleware, API request handlers, authentication middleware, error handling, and logging utilities.
 - **dashboard**: Dashboard UI components including cards, charts, and widget containers.
 - **data-visualization**: Components for visualizing data with various charting libraries.
-- **notifications**: Components for notifications, alerts, and messaging.
+- **database**: MongoDB models and components for efficient database operations.
 - **file-upload**: Components to handle file uploads and integrations with cloud storage.
 - **forms**: Reusable form components with validations and error handling.
 - **media-players**: Audio and video player components with playback controls and responsive design.
-- **tables**: Components for displaying data in tables with sorting and filtering functionalities.
+- **notifications**: Components for notifications, alerts, and messaging.
 - **search-filters**: Efficient search bars, filtering UIs, and autocomplete components.
-- **database**: MongoDB models and components for efficient database operations.
+- **state-management**: Components using Redux Toolkit, React Context API, or useReducer for managing global state efficiently.
+- **tables**: Components for displaying data in tables with sorting and filtering functionalities.
+- **user-auth**: Components for user authentication, including JWT middleware, login forms, and registration flows.
+
+
 
 ## Getting Started
 
