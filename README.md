@@ -16,6 +16,7 @@ This repository contains a collection of MERN (MongoDB, Express, React, Node.js,
 - **state-management**: Components using Redux Toolkit, React Context API, or useReducer for managing global state efficiently.
 - **tables**: Components for displaying data in tables with sorting and filtering functionalities.
 - **user-auth**: Components for user authentication, including JWT middleware, login forms, and registration flows.
+- **utils**: Helper functions, date formatting, API response handlers, custom hooks, and other reusable utilities.
 
 
 
